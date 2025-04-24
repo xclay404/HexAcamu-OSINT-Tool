@@ -10,6 +10,11 @@
 
 ---
 
+
+# HexaCamu - Social Media Web Crawler
+
+**HexaCamu** is a web crawler for Instagram, YouTube and X / Twitter (and later it will work on various social media platforms) which provides us with further information about a certain account of your wish! 
+
 ## 🔧 Features
 
 - 📷 **Instagram**:
@@ -27,22 +32,6 @@
   - Saves timestamped logs of retrieved media
 
 ---
-
-# HexaCamu - Social Media Web Crawler
-
-**HexaCamu** is a web crawler for Instagram (and later it will work on various social media platforms) which downloads the profile picture and every post.
-
-## 📑 Table of Contents
-- [Project Description](#project-description)
-- [How it Works](#how-it-works)
-  - [Instagram](#instagram)
-  - [YouTube](#youtube)
-  - [X / Twitter / TWIX](#x-twitter-twix)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Disclaimer](#disclaimer)
-
 ## 📜 Project Description
 
 HexaCamu is a web crawler that is currently developed for Instagram and will be extended to other social platforms in the future. It allows downloading the profile picture and all posts of an Instagram profile.
@@ -51,7 +40,7 @@ Currently, HexaCamu supports the following platforms:
 
 - **Instagram**: Download profile pictures and posts.
 - **YouTube**: Download all video URLs of a channel or playlist.
-- **X/Twitter**: (Future feature)
+- **X/Twitter**: 
 
 ## ⚙️ How it Works
 
