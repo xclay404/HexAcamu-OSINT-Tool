@@ -13,7 +13,7 @@
 
 # HexaCamu - Social Media Web Crawler
 
-**HexaCamu** is a web crawler for Instagram, YouTube and X / Twitter (and later it will work on various social media platforms) which provides us with further information about a certain account of your wish! 
+**HexaCamu** is a python-based web crawler for Instagram, YouTube and X / Twitter (and later it will work on various social media platforms) which provides us with further information about a certain account of your wish! 
 
 ## 🔧 Features
 
