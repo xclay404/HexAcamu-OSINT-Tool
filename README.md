@@ -1,29 +1,33 @@
-<h1 align="center"><i>HeXacamu OSINT Tool</i></h1>
-<p align="center">
-  <img src="https://your-image-link.com/logo.png" alt="HeXacamu OSINT Tool">
-</p>
+# 🕵️‍♂️ HeXacamu OSINT Tool
 
 <p align="center">
-  <strong>HeXacamu OSINT Tool</strong> is an open-source project that allows users to collect data from various social media platforms, including Instagram, YouTube, and Twitter (X). The tool helps gather media URLs and profile data for OSINT (Open Source Intelligence) purposes.
+  <img src="https://img.shields.io/badge/python-3.8%2B-blue" alt="Python 3.8+">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT">
+  <img src="https://img.shields.io/github/stars/yourusername/hexacamu?style=social" alt="GitHub stars">
 </p>
 
-## 📑 Table of Contents
-- [Installation](#%EF%B8%8F-installation)
-- [Purpose](#purpose)
-- [Features](#-current-features)
-- [Usage](#-usage)
-- [Tech Stack](#-tech-stack)
-- [Repository Structure](#%EF%B8%8F-repository-structure)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Disclaimer](#disclaimer)
+> Ein vielseitiges OSINT-Tool zum Extrahieren von öffentlichen Informationen aus Instagram, YouTube und X (ehemals Twitter). Ideal für Recherchezwecke und Analyse öffentlicher Inhalte.
 
-## ⚙️ Installation
+---
 
-To get started with the HeXacamu OSINT Tool, follow these steps:
+## 🧠 Features
 
-### Prerequisites
+- 🔍 **Instagram**:
+  - Extrahiert Bilder aus Profilen über eine GraphQL-Abfrage
+  - Erstellt eine automatisch generierte HTML-Galerie
+  - Holt Profilbilder direkt aus dem Instagram-Quellcode
 
-1. **Install the required libraries**:
-   ```bash
-   pip install instaloader requests beautifulsoup4 yt-dlp pyfiglet
+- 📺 **YouTube**:
+  - Extrahiert alle Video-URLs aus einem Channel oder einer Playlist
+  - Speichert sie sauber in einer `.txt`-Datei
+
+- 🐦 **Twitter/X**:
+  - Holt Medien (Bilder/Videos) von Benutzerprofilen via Bearer Token (API v2)
+  - Speichert alle gefundenen URLs in einem Zeitstempel-basierten Log
+
+---
+
+## 🚀 Installation
+
+```bash
+pip install instaloader requests beautifulsoup4 yt-dlp pyfiglet tweepy
