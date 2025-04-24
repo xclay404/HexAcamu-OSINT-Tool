@@ -1,74 +1,31 @@
-🎯 HeXacamu OSINT Tool
+<h1 align="center"><i>MakroTracker</i></h1>
+<p align="center">
+  <img src="https://your-image-link.com/logo.png" alt="MakroTracker">
+</p>
 
+<p align="center">
+  <strong>MakroTracker</strong> is an open-source web application to track macronutrients, calories, and more. It helps you monitor your diet and maintain healthy eating habits. Developed with Python (Flask) and frontend technologies like HTML, CSS, and JavaScript, it's the perfect tool for anyone interested in fitness and nutrition.
+</p>
 
+## 📑 Table of Contents
+- [Installation](#%EF%B8%8F-installation)
+- [Purpose](#purpose)
+- [Features](#-current-features)
+- [Tech Stack](#-tech-stack)
+- [Repository Structure](#%EF%B8%8F-repository-structure)
+- [Contributing](#-contributing)
+- [License](#-license)
 
+## ⚙️ Installation
 
+The installation process is easy and quick. Follow these steps to get started with MakroTracker:
 
-HeXacamu is a cross-platform 🔍 OSINT (Open Source Intelligence) tool designed to collect and organize publicly available data from Instagram, YouTube, and X (formerly Twitter).
+### Prerequisites
 
-📚 Table of Contents
+Make sure you have Python and Node.js installed on your system.
 
-✨ Features
-
-🛠️ Installation
-
-📦 Requirements
-
-⚠️ Note
-
-📜 License
-
-✨ Features
-
-📸 Instagram Scraper
-
-  - Extracts post images from public profiles (requires manual cookie input).
-
-  - Creates a responsive HTML gallery.
-
-  - Downloads high-res profile pictures.
-
-📺 YouTube Scraper
-
-🔗 Fetches all video URLs from a channel or playlist using yt-dlp.
-
-📄 Saves URLs in a .txt file.
-
-🐦 X / Twitter Scraper
-
-🧠 Uses the Twitter API v2 to retrieve media from a user's timeline.
-
-💾 Saves media links in a timestamped .txt file.
-
-🛠️ Installation
-
-Install dependencies via pip:
-
-pip install instaloader requests beautifulsoup4 yt-dlp pyfiglet tweepy
-
-📦 Requirements
-
-This tool uses the following libraries:
-
-instaloader
-
-requests
-
-beautifulsoup4
-
-yt-dlp
-
-tweepy
-
-pyfiglet
-
-⚠️ Note
-
-🧪 This tool may require manual authentication (e.g. cookies for Instagram, or a Bearer Token for X). Please use it responsibly and comply with each platform's Terms of Service.
-
-📜 License
-
-This project is licensed under the MIT License.
-
-🧠 Made for educational and research purposes only. Use at your own risk.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/makrotracker.git
+   cd makrotracker
 
