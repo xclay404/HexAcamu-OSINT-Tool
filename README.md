@@ -38,13 +38,17 @@ HexaCamu is a web crawler that is currently developed for Instagram and will be 
 
 Currently, HexaCamu supports the following platforms:
 
-- **Instagram**: Download profile pictures and posts.
-- **YouTube**: Download all video URLs of a channel or playlist.
+- **Instagram**: 
+- **YouTube**: 
 - **X/Twitter**: 
 
 ## ⚙️ How it Works
 
 ### Instagram
+
+Which cookies do I need to fill in there and how can I find them? 
+
+Just by going into developer mode ( mostly by pressing F12 ), you can see a section named ' Cookies ' and there you go. 
 
 1. **Fetching the Instagram Gallery**:
    - The user needs to provide essential cookies like `csrftoken` (session and authentication data) to access Instagram.
