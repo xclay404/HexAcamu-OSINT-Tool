@@ -6,28 +6,31 @@
   <img src="https://img.shields.io/github/stars/yourusername/hexacamu?style=social" alt="GitHub stars">
 </p>
 
-> Ein vielseitiges OSINT-Tool zum Extrahieren von öffentlichen Informationen aus Instagram, YouTube und X (ehemals Twitter). Ideal für Recherchezwecke und Analyse öffentlicher Inhalte.
+> A multi-platform Open Source Intelligence (OSINT) tool for extracting public media and data from Instagram, YouTube, and X (formerly Twitter). Ideal for research, analysis, and media archiving.
 
 ---
 
-## 🧠 Features
+## 🔧 Features
 
-- 🔍 **Instagram**:
-  - Extrahiert Bilder aus Profilen über eine GraphQL-Abfrage
-  - Erstellt eine automatisch generierte HTML-Galerie
-  - Holt Profilbilder direkt aus dem Instagram-Quellcode
+- 📷 **Instagram**:
+  - Extracts image URLs using GraphQL endpoints
+  - Builds a clean offline HTML gallery of posts
+  - Downloads high-quality profile pictures
 
 - 📺 **YouTube**:
-  - Extrahiert alle Video-URLs aus einem Channel oder einer Playlist
-  - Speichert sie sauber in einer `.txt`-Datei
+  - Extracts all video URLs from a channel or playlist using `yt-dlp`
+  - Saves results to a text file for easy processing
 
 - 🐦 **Twitter/X**:
-  - Holt Medien (Bilder/Videos) von Benutzerprofilen via Bearer Token (API v2)
-  - Speichert alle gefundenen URLs in einem Zeitstempel-basierten Log
+  - Pulls media links from public user profiles via Bearer Token
+  - Handles rate-limits and authentication gracefully
+  - Saves timestamped logs of retrieved media
 
 ---
 
-## 🚀 Installation
+## 📦 Installation
+
+Install required packages with:
 
 ```bash
 pip install instaloader requests beautifulsoup4 yt-dlp pyfiglet tweepy
