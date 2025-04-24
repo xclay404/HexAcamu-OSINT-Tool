@@ -131,7 +131,7 @@ This functionality allows users to collect media links (images, videos) shared b
 
 1. Install the required Python packages:
    ```bash
-   pip install instaloader requests beautifulsoup4 yt-dlp pyfiglet
+   pip install instaloader requests beautifulsoup4 yt-dlp pyfiglet tweepy
 
 
 ```bash
