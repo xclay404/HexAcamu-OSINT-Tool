@@ -1,16 +1,17 @@
-<h1 align="center"><i>HexaCamu</i></h1>
+<h1 align="center"><i>HeXacamu OSINT Tool</i></h1>
 <p align="center">
-  <img src="https://your-image-link.com/logo.png" alt="HexaCamu">
+  <img src="https://your-image-link.com/logo.png" alt="HeXacamu OSINT Tool">
 </p>
 
 <p align="center">
-  <strong>HexaCamu</strong> is an open-source solution to manage, grow, and track the development of cannabis plants. Developed with a focus on simplicity and automation, HexaCamu helps you monitor plant health, growth stages, and optimize your cultivation efforts. Perfect for enthusiasts and experienced growers alike!
+  <strong>HeXacamu OSINT Tool</strong> is an open-source project that allows users to collect data from various social media platforms, including Instagram, YouTube, and Twitter (X). The tool helps gather media URLs and profile data for OSINT (Open Source Intelligence) purposes.
 </p>
 
 ## 📑 Table of Contents
 - [Installation](#%EF%B8%8F-installation)
 - [Purpose](#purpose)
 - [Features](#-current-features)
+- [Usage](#-usage)
 - [Tech Stack](#-tech-stack)
 - [Repository Structure](#%EF%B8%8F-repository-structure)
 - [Contributing](#-contributing)
@@ -19,13 +20,10 @@
 
 ## ⚙️ Installation
 
-To get started with HexaCamu, follow these steps:
+To get started with the HeXacamu OSINT Tool, follow these steps:
 
 ### Prerequisites
 
-Make sure you have Python and Node.js installed on your system.
-
-1. **Clone the repository**:
+1. **Install the required libraries**:
    ```bash
-   git clone https://github.com/yourusername/HexaCamu.git
-   cd HexaCamu
+   pip install instaloader requests beautifulsoup4 yt-dlp pyfiglet
