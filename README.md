@@ -1,29 +1,52 @@
+🎯 HeXacamu OSINT Tool
 
-HeXacamu is a cross-platform OSINT (Open Source Intelligence) tool designed to collect and organize publicly available data from Instagram, YouTube, and X (formerly Twitter).
+
+
+
+
+HeXacamu is a cross-platform 🔍 OSINT (Open Source Intelligence) tool designed to collect and organize publicly available data from Instagram, YouTube, and X (formerly Twitter).
+
+📚 Table of Contents
 
 ✨ Features
 
-🔍 Instagram Scraper
+🛠️ Installation
 
-Extracts post images from public profiles (requires manual cookie input).
+📦 Requirements
 
-Creates an HTML gallery with all retrieved images.
+⚠️ Note
 
-Downloads profile pictures.
+📜 License
+
+✨ Features
+
+📸 Instagram Scraper
+
+  - Extracts post images from public profiles (requires manual cookie input).
+
+  - Creates a responsive HTML gallery.
+
+  - Downloads high-res profile pictures.
 
 📺 YouTube Scraper
 
-Fetches all video URLs from a YouTube channel or playlist using yt-dlp.
+🔗 Fetches all video URLs from a channel or playlist using yt-dlp.
 
-Saves the video links to a local .txt file.
+📄 Saves URLs in a .txt file.
 
 🐦 X / Twitter Scraper
 
-Uses the Twitter API (v2) to retrieve media URLs from a user's timeline.
+🧠 Uses the Twitter API v2 to retrieve media from a user's timeline.
 
-Saves the media links in a timestamped .txt file.
+💾 Saves media links in a timestamped .txt file.
 
-📆 Modules & Requirements
+🛠️ Installation
+
+Install dependencies via pip:
+
+pip install instaloader requests beautifulsoup4 yt-dlp pyfiglet tweepy
+
+📦 Requirements
 
 This tool uses the following libraries:
 
@@ -39,15 +62,13 @@ tweepy
 
 pyfiglet
 
-Installation
-
-Install dependencies via pip:
-
-pip install instaloader requests beautifulsoup4 yt-dlp pyfiglet tweepy
-
 ⚠️ Note
 
-This tool may require manual authentication (e.g. cookies for Instagram or a Bearer Token for X). Please use it responsibly and comply with the terms of service of each platform.
+🧪 This tool may require manual authentication (e.g. cookies for Instagram, or a Bearer Token for X). Please use it responsibly and comply with each platform's Terms of Service.
 
-Made for educational and research purposes only.
-Use at your own risk.
+📜 License
+
+This project is licensed under the MIT License.
+
+🧠 Made for educational and research purposes only. Use at your own risk.
+
