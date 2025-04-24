@@ -1,27 +1,36 @@
-import instaloader
-import re
-import time
-import requests
 import os
+import re
+import requests
+import subprocess
 import webbrowser
-from bs4 import BeautifulSoup
-import subprocess 
-import tweepy
 from datetime import datetime
+import random
+import tweepy
+import instaloader
+from bs4 import BeautifulSoup
 import pyfiglet
+from termcolor import colored
 
-# requirements
-# || pip install instaloader requests beautifulsoup4 yt-dlp pyfiglet|| 
+# requirements:
 
-
-
-def ascii_banner():
-    banner = pyfiglet.figlet_format("HeXacamu      OSINT Tool ")
-    print(banner)
-
-ascii_banner()
+#|| pip install instaloader requests beautifulsoup4 yt-dlp pyfiglet termcolor tweepy ||
 
 
+
+def ascii_banner_colored():
+    banner = pyfiglet.figlet_format("HeXacamu")
+    colors = ['red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white']
+    
+    colored_banner = ""
+    for char in banner:
+        if char == "\n":
+            colored_banner += char
+        else:
+            colored_banner += colored(char, random.choice(colors))
+    
+    print(colored_banner)
+
+ascii_banner_colored()
 
 def NULL_messages():
     response = requests.get("https://example.com")  
