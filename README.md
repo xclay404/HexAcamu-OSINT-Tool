@@ -1,10 +1,10 @@
-<h1 align="center"><i>MakroTracker</i></h1>
+<h1 align="center"><i>HexaCamu</i></h1>
 <p align="center">
-  <img src="https://your-image-link.com/logo.png" alt="MakroTracker">
+  <img src="https://your-image-link.com/logo.png" alt="HexaCamu">
 </p>
 
 <p align="center">
-  <strong>MakroTracker</strong> is an open-source web application to track macronutrients, calories, and more. It helps you monitor your diet and maintain healthy eating habits. Developed with Python (Flask) and frontend technologies like HTML, CSS, and JavaScript, it's the perfect tool for anyone interested in fitness and nutrition.
+  <strong>HexaCamu</strong> is an open-source solution to manage, grow, and track the development of cannabis plants. Developed with a focus on simplicity and automation, HexaCamu helps you monitor plant health, growth stages, and optimize your cultivation efforts. Perfect for enthusiasts and experienced growers alike!
 </p>
 
 ## 📑 Table of Contents
@@ -15,10 +15,11 @@
 - [Repository Structure](#%EF%B8%8F-repository-structure)
 - [Contributing](#-contributing)
 - [License](#-license)
+- [Disclaimer](#disclaimer)
 
 ## ⚙️ Installation
 
-The installation process is easy and quick. Follow these steps to get started with MakroTracker:
+To get started with HexaCamu, follow these steps:
 
 ### Prerequisites
 
@@ -26,6 +27,5 @@ Make sure you have Python and Node.js installed on your system.
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/makrotracker.git
-   cd makrotracker
-
+   git clone https://github.com/yourusername/HexaCamu.git
+   cd HexaCamu
